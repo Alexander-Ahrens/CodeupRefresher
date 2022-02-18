@@ -1,0 +1,27 @@
+
+GIT COMMANDS
+
+https://education.github.com/git-cheat-sheet-education.pdf
+
+
+git init -> initializes an existing directory as a Git repository
+
+git clone [url] -> retrieves a repository from a hosted location via url
+
+git checkout -b "branch name" (with no quotes) -> creates a new branch and 
+    automatically switches to branch
+
+git branch -> lists branches (a * will appear next to current branch)
+
+git branch "branch name" -> creates a new branch but does not switch to it
+
+git checkout "branch name" -> switches to branch
+
+git merge "branch name" -> merges the name of the branch entered into the current branch
+    NOTE: always be in the master branch if merging to master
+
+git branch -d "branch name" -> deletes branch that is no longer needed
+
+git status -> shows what files are not merged
+    NOTE: happens when there is a merge conflict
+
