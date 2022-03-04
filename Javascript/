@@ -1,0 +1,16 @@
+
+function sayHello(name) {
+    console.log("Hello there " + name + "!");
+    return "Hello there " + name + "!";
+}
+sayHello("Alexander, Lord Emperor of the Galaxy");
+let helloMessage = result
+
+function weird(string) {
+    console.log("That's cool " + string + ".");
+    return string;
+}
+
+weird("Monster");
+
+
