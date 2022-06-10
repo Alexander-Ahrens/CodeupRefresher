@@ -22,6 +22,13 @@ git merge "branch name" -> merges the name of the branch entered into the curren
 
 git branch -d "branch name" -> deletes branch that is no longer needed
 
+git log -> shows commit history for currently active branch
+
 git status -> shows what files are not merged
     NOTE: happens when there is a merge conflict
+
+git push -> updates branch with resent local commits
+    NOTE: use git status before pushing to double check the branch currently on
+
+git pull -> pulls potential updates made on a different server/computer/ide
 
